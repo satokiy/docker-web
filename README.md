@@ -55,6 +55,13 @@ bun run server.ts
 
 ## Usage
 
+### Option 1: Start both servers with one command (Recommended)
+```bash
+bun run start
+```
+This will start both the backend server (port 3001) and frontend dev server simultaneously.
+
+### Option 2: Start servers separately
 1. Start the backend server (runs on port 3001):
 ```bash
 bun run server
@@ -65,7 +72,7 @@ bun run server
 bun run dev
 ```
 
-3. Open your browser to http://localhost:5173 (or the port shown in the terminal)
+After starting the servers, open your browser to the URL shown in the terminal (typically http://localhost:5173 or http://localhost:3000)
 
 ## How to Use
 
