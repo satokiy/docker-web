@@ -1,5 +1,5 @@
 {
-  "name": "docker-cleaner",
+  "name": "docker-web",
   "module": "index.ts",
   "type": "module",
   "scripts": {

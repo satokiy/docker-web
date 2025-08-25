@@ -1,4 +1,4 @@
-# Docker Cleaner
+# Docker Web
 
 A web-based UI for managing and cleaning up Docker resources efficiently. This tool provides a better alternative to `docker image prune` by allowing you to selectively delete Docker containers, images, volumes, and networks.
 
@@ -20,8 +20,8 @@ A web-based UI for managing and cleaning up Docker resources efficiently. This t
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd docker-cleaner
+git clone https://github.com/satokiy/docker-web.git
+cd docker-web
 ```
 
 2. Install dependencies:
@@ -60,12 +60,12 @@ bun run server.ts
 bun run server
 ```
 
-2. In a new terminal, start the frontend development server (runs on port 3000):
+2. In a new terminal, start the frontend development server:
 ```bash
 bun run dev
 ```
 
-3. Open your browser to http://localhost:3000
+3. Open your browser to http://localhost:5173 (or the port shown in the terminal)
 
 ## How to Use
 

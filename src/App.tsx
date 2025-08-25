@@ -493,7 +493,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <h1>🐳 Docker Cleaner</h1>
+        <h1>🐳 Docker Web</h1>
         <p style={{ color: '#666', marginBottom: '1rem' }}>
           Manage and clean up your Docker resources efficiently
         </p>
